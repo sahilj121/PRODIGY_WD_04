@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#home {
+    padding-top: 100px; /* Adjust the value based on the header height */
+}
+
+.hero {
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    max-width: 150px;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+   margin-top: auto;
+    
+}
+
+/* Add media queries for responsive design as needed */
